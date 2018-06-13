@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0 auto;
   color: #777777;
+  text-decoration: none;
 }
 
 header {
@@ -35,6 +36,14 @@ header {
   float: left;
   padding: 20px;
   margin: 0px auto;
+  text-decoration: none;
+}
+.link:visited {
+  color: #777777;
+}
+.link:hover {
+  font-size: 24px;
+  color: #4aaaa5;
 }
 
 nav {
@@ -102,7 +111,7 @@ p {
 footer {
   clear: both;
   width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   margin: 0px auto;
   border-top: 5px solid #4aaaa5;

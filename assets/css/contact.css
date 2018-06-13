@@ -5,3 +5,7 @@ button {
   font-size: 18px;
   color: white;
 }
+
+button:hover {
+  background-color: blue;
+}
